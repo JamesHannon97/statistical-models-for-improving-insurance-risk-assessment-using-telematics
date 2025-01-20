@@ -1,0 +1,17 @@
+jupyter==1.0.0
+ipykernel==6.29.3
+jupyter-server==2.13.0
+traitlets==5.9.0
+notebook==6.5.2
+matplotlib==3.5.0
+pandas==1.5.3
+numpy
+seaborn==0.12.2
+scipy
+scikit-learn
+prettytable==3.6.0
+statsmodels
+tqdm==4.65.0
+setuptools
+pingouin
+sfrancia
