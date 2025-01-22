@@ -1,0 +1,9 @@
+2024-08-22 22:39:55,968:INFO:Model Initialised.
+2024-08-22 22:39:56,008:INFO:Train, Validation and Test sets created.
+2024-08-22 22:39:56,008:INFO:Train set shape: (60000, 56)
+2024-08-22 22:39:56,008:INFO:Validation set shape: (20000, 56)
+2024-08-22 22:39:56,008:INFO:Test set shape: (20000, 56)
+2024-08-22 22:39:56,170:INFO:PCA fitted.
+2024-08-22 22:39:59,335:INFO:Converged: True
+2024-08-22 22:39:59,336:INFO:Iterations: 7
+2024-08-22 22:39:59,398:INFO:GMM fitted.

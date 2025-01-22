@@ -1,0 +1,11 @@
+model,mavg,glm_family,n,cov,pca
+none,0.715,logit,1,none,0
+none,0.714,probit,1,none,0
+none,0.707,cauchy,1,none,0
+none,0.698,cloglog,1,none,0
+none,0.715,loglog,1,none,0
+none_pca,0.702,logit,1,none,1
+none_pca,0.699,probit,1,none,1
+none_pca,0.699,cauchy,1,none,1
+none_pca,0.697,cloglog,1,none,1
+none_pca,0.705,loglog,1,none,1
