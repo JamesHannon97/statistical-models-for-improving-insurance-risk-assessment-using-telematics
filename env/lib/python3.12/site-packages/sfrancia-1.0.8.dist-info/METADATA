@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sfrancia
+Version: 1.0.8
+Summary: Shapiro-Francia normality test
+Home-page: UNKNOWN
+Author: Luiz Paulo Fávero
+License: MIT
+Keywords: shapiro, francia, normality, test
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+
