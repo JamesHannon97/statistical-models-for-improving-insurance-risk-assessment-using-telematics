@@ -1,0 +1,542 @@
+2024-09-27 09:54:10,619:INFO:Model Initialised.
+2024-09-27 09:54:10,672:INFO:Train, Validation and Test sets created.
+2024-09-27 09:54:10,673:INFO:Train set shape: (60000, 56)
+2024-09-27 09:54:10,673:INFO:Validation set shape: (20000, 56)
+2024-09-27 09:54:10,673:INFO:Test set shape: (20000, 56)
+2024-09-27 09:54:57,714:INFO:Converged: True
+2024-09-27 09:54:57,715:INFO:Iterations: 22
+2024-09-27 09:54:58,056:INFO:GMM fitted.
+2024-09-27 09:54:58,531:INFO:Cluster 0:
+
+2024-09-27 09:54:58,571:INFO:Initial Threshold: 0.0
+2024-09-27 09:54:59,064:INFO:I(Pct_drive_3hrs ** 2) failed to converge
+2024-09-27 09:54:59,203:INFO:I(Pct_drive_3hrs ** 3) failed to converge
+2024-09-27 09:55:00,758:INFO:I(Pct_drive_4hrs ** 3) failed to converge
+2024-09-27 09:55:00,798:INFO:I(Pct_drive_4hrs ** 2) failed to converge
+2024-09-27 09:55:28,400:INFO:I(Pct_drive_2hrs ** 3) failed to converge
+2024-09-27 09:55:29,162:INFO:I(Pct_drive_2hrs ** 2) failed to converge
+2024-09-27 09:55:29,421:INFO:I(Accel_11miles ** 2)             0.361808
+I(Brake_06miles ** 3)             0.190467
+Brake_11miles                     0.560074
+I(Accel_14miles ** 3)             0.257236
+I(Accel_08miles ** 2)             0.176021
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.610053
+I(Right_turn_intensity11 ** 2)    0.592537
+I(Left_turn_intensity09 ** 2)     0.597461
+I(Total_miles_driven ** 2)        0.535942
+I(Right_turn_intensity12 ** 3)    0.606962
+Length: 106, dtype: float64
+2024-09-27 09:55:29,422:INFO:Add Total_miles_driven with mavg: 0.7156433813709235
+2024-09-27 09:55:30,171:INFO:I(Pct_drive_3hrs ** 2) failed to converge
+2024-09-27 09:55:30,391:INFO:I(Pct_drive_3hrs ** 3) failed to converge
+2024-09-27 09:55:32,412:INFO:I(Pct_drive_4hrs ** 3) failed to converge
+2024-09-27 09:55:32,456:INFO:I(Pct_drive_4hrs ** 2) failed to converge
+2024-09-27 09:55:34,147:INFO:I(Pct_drive_2hrs ** 3) failed to converge
+2024-09-27 09:55:35,105:INFO:I(Pct_drive_2hrs ** 2) failed to converge
+2024-09-27 09:55:35,386:INFO:I(Accel_11miles ** 2)             0.714092
+I(Brake_06miles ** 3)             0.709019
+Brake_11miles                     0.723701
+I(Accel_14miles ** 3)             0.715538
+I(Accel_08miles ** 2)             0.715009
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.717974
+I(Right_turn_intensity11 ** 2)    0.716277
+I(Left_turn_intensity09 ** 2)     0.732523
+I(Total_miles_driven ** 2)        0.711872
+I(Right_turn_intensity12 ** 3)    0.717643
+Length: 105, dtype: float64
+2024-09-27 09:55:35,387:INFO:Add I(Years_noclaims ** 3) with mavg: 0.7370662792937089
+2024-09-27 09:55:36,257:INFO:I(Pct_drive_3hrs ** 2) failed to converge
+2024-09-27 09:55:36,513:INFO:I(Pct_drive_3hrs ** 3) failed to converge
+2024-09-27 09:55:38,803:INFO:I(Pct_drive_4hrs ** 3) failed to converge
+2024-09-27 09:55:38,857:INFO:I(Pct_drive_4hrs ** 2) failed to converge
+2024-09-27 09:55:40,739:INFO:I(Pct_drive_2hrs ** 3) failed to converge
+2024-09-27 09:55:41,810:INFO:I(Pct_drive_2hrs ** 2) failed to converge
+2024-09-27 09:55:42,132:INFO:I(Accel_11miles ** 2)             0.736445
+I(Brake_06miles ** 3)             0.736701
+Brake_11miles                     0.737934
+I(Accel_14miles ** 3)             0.737066
+I(Accel_08miles ** 2)             0.737170
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.713637
+I(Right_turn_intensity11 ** 2)    0.732988
+I(Left_turn_intensity09 ** 2)     0.746619
+I(Total_miles_driven ** 2)        0.717294
+I(Right_turn_intensity12 ** 3)    0.733869
+Length: 104, dtype: float64
+2024-09-27 09:55:42,132:INFO:Add I(Total_days_driven ** 3) with mavg: 0.7483866322615934
+2024-09-27 09:55:43,066:INFO:I(Pct_drive_3hrs ** 2) failed to converge
+2024-09-27 09:55:43,344:INFO:I(Pct_drive_3hrs ** 3) failed to converge
+2024-09-27 09:55:45,868:INFO:I(Pct_drive_4hrs ** 3) failed to converge
+2024-09-27 09:55:45,921:INFO:I(Pct_drive_4hrs ** 2) failed to converge
+2024-09-27 09:55:46,809:INFO:I(Pct_drive_wkday ** 3) failed to converge
+2024-09-27 09:55:48,007:INFO:I(Pct_drive_2hrs ** 3) failed to converge
+2024-09-27 09:55:49,602:INFO:I(Accel_11miles ** 2)             0.749371
+I(Brake_06miles ** 3)             0.744545
+Brake_11miles                     0.746458
+I(Accel_14miles ** 3)             0.748277
+I(Accel_08miles ** 2)             0.748715
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.752266
+I(Right_turn_intensity11 ** 2)    0.746194
+I(Left_turn_intensity09 ** 2)     0.754912
+I(Total_miles_driven ** 2)        0.736988
+I(Right_turn_intensity12 ** 3)    0.743994
+Length: 103, dtype: float64
+2024-09-27 09:55:49,604:INFO:Add I(Brake_09miles ** 2) with mavg: 0.758321584966512
+2024-09-27 09:55:50,620:INFO:I(Pct_drive_3hrs ** 2) failed to converge
+2024-09-27 09:55:50,967:INFO:I(Pct_drive_3hrs ** 3) failed to converge
+2024-09-27 09:55:54,041:INFO:I(Pct_drive_4hrs ** 3) failed to converge
+2024-09-27 09:55:54,104:INFO:I(Pct_drive_4hrs ** 2) failed to converge
+2024-09-27 09:55:55,164:INFO:I(Pct_drive_wkday ** 3) failed to converge
+2024-09-27 09:55:56,502:INFO:I(Pct_drive_2hrs ** 3) failed to converge
+2024-09-27 09:55:58,809:INFO:I(Accel_11miles ** 2)             0.758322
+I(Brake_06miles ** 3)             0.758543
+Brake_11miles                     0.746358
+I(Accel_14miles ** 3)             0.752529
+I(Accel_08miles ** 2)             0.752529
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.755654
+I(Right_turn_intensity11 ** 2)    0.752529
+I(Left_turn_intensity09 ** 2)     0.756120
+I(Total_miles_driven ** 2)        0.740100
+I(Right_turn_intensity12 ** 3)    0.751699
+Length: 102, dtype: float64
+2024-09-27 09:55:58,811:INFO:Add I(Brake_11miles ** 3) with mavg: 0.7591896035915295
+2024-09-27 09:56:00,237:INFO:I(Pct_drive_3hrs ** 2) failed to converge
+2024-09-27 09:56:00,721:INFO:I(Pct_drive_3hrs ** 3) failed to converge
+2024-09-27 09:56:04,330:INFO:I(Pct_drive_4hrs ** 3) failed to converge
+2024-09-27 09:56:04,397:INFO:I(Pct_drive_4hrs ** 2) failed to converge
+2024-09-27 09:56:05,632:INFO:I(Pct_drive_wkday ** 3) failed to converge
+2024-09-27 09:56:07,108:INFO:I(Pct_drive_2hrs ** 3) failed to converge
+2024-09-27 09:56:09,136:INFO:I(Accel_11miles ** 2)             0.753719
+I(Brake_06miles ** 3)             0.758100
+Brake_11miles                     0.751145
+I(Accel_14miles ** 3)             0.758856
+I(Accel_08miles ** 2)             0.754118
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.754695
+I(Right_turn_intensity11 ** 2)    0.753606
+I(Left_turn_intensity09 ** 2)     0.757775
+I(Total_miles_driven ** 2)        0.739126
+I(Right_turn_intensity12 ** 3)    0.749720
+Length: 101, dtype: float64
+2024-09-27 09:56:09,137:INFO:No variable to add.
+2024-09-27 09:56:09,138:INFO:Cluster 1:
+
+2024-09-27 09:56:09,169:INFO:Initial Threshold: 0.0
+2024-09-27 09:56:09,178:INFO:I(Accel_11miles ** 2) failed to converge
+2024-09-27 09:56:09,218:INFO:I(Accel_14miles ** 3) failed to converge
+2024-09-27 09:56:09,240:INFO:I(Accel_14miles ** 2) failed to converge
+2024-09-27 09:56:09,283:INFO:I(Accel_08miles ** 3) failed to converge
+2024-09-27 09:56:09,290:INFO:I(Brake_11miles ** 3) failed to converge
+2024-09-27 09:56:09,305:INFO:I(Pct_drive_3hrs ** 2) failed to converge
+2024-09-27 09:56:09,328:INFO:I(Accel_11miles ** 3) failed to converge
+2024-09-27 09:56:09,349:INFO:I(Pct_drive_3hrs ** 3) failed to converge
+2024-09-27 09:56:09,356:INFO:I(Accel_12miles ** 2) failed to converge
+2024-09-27 09:56:09,406:INFO:I(Accel_09miles ** 2) failed to converge
+2024-09-27 09:56:09,459:INFO:I(Brake_12miles ** 3) failed to converge
+2024-09-27 09:56:09,584:INFO:I(Accel_12miles ** 3) failed to converge
+2024-09-27 09:56:09,691:INFO:I(Brake_12miles ** 2) failed to converge
+2024-09-27 09:56:09,714:INFO:I(Brake_14miles ** 3) failed to converge
+2024-09-27 09:56:09,841:INFO:I(Brake_14miles ** 2) failed to converge
+2024-09-27 09:56:09,906:INFO:I(Pct_drive_2hrs ** 3) failed to converge
+2024-09-27 09:56:09,927:INFO:I(Pct_drive_wkday ** 2) failed to converge
+2024-09-27 09:56:09,943:INFO:I(Accel_09miles ** 3) failed to converge
+2024-09-27 09:56:09,993:INFO:I(Brake_11miles ** 2) failed to converge
+2024-09-27 09:56:10,025:INFO:I(Brake_09miles ** 3) failed to converge
+2024-09-27 09:56:10,048:INFO:I(Pct_drive_2hrs ** 2) failed to converge
+2024-09-27 09:56:10,091:INFO:I(Accel_11miles ** 2)             0.000000
+I(Brake_06miles ** 3)             0.592218
+Brake_11miles                     0.262613
+I(Accel_14miles ** 3)             0.000000
+I(Accel_08miles ** 2)             0.441042
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.589724
+I(Right_turn_intensity11 ** 2)    0.274144
+I(Left_turn_intensity09 ** 2)     0.527466
+I(Total_miles_driven ** 2)        0.718170
+I(Right_turn_intensity12 ** 3)    0.138409
+Length: 106, dtype: float64
+2024-09-27 09:56:10,091:INFO:Add Total_miles_driven with mavg: 0.8389290465714342
+2024-09-27 09:56:10,129:INFO:I(Accel_14miles ** 3) failed to converge
+2024-09-27 09:56:10,190:INFO:I(Accel_08miles ** 3) failed to converge
+2024-09-27 09:56:10,196:INFO:I(Brake_11miles ** 3) failed to converge
+2024-09-27 09:56:10,212:INFO:I(Pct_drive_3hrs ** 2) failed to converge
+2024-09-27 09:56:10,229:INFO:I(Accel_11miles ** 3) failed to converge
+2024-09-27 09:56:10,246:INFO:I(Pct_drive_3hrs ** 3) failed to converge
+2024-09-27 09:56:10,367:INFO:I(Brake_12miles ** 3) failed to converge
+2024-09-27 09:56:10,517:INFO:I(Accel_12miles ** 3) failed to converge
+2024-09-27 09:56:10,677:INFO:I(Brake_14miles ** 3) failed to converge
+2024-09-27 09:56:10,759:INFO:I(Pct_drive_rush ** 3) failed to converge
+2024-09-27 09:56:10,943:INFO:I(Pct_drive_2hrs ** 3) failed to converge
+2024-09-27 09:56:10,993:INFO:I(Accel_09miles ** 3) failed to converge
+2024-09-27 09:56:11,136:INFO:I(Pct_drive_2hrs ** 2) failed to converge
+2024-09-27 09:56:11,188:INFO:I(Accel_11miles ** 2)             0.838929
+I(Brake_06miles ** 3)             0.841034
+Brake_11miles                     0.838929
+I(Accel_14miles ** 3)             0.000000
+I(Accel_08miles ** 2)             0.841034
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.777293
+I(Right_turn_intensity11 ** 2)    0.834703
+I(Left_turn_intensity09 ** 2)     0.830455
+I(Total_miles_driven ** 2)        0.838929
+I(Right_turn_intensity12 ** 3)    0.841034
+Length: 105, dtype: float64
+2024-09-27 09:56:11,189:INFO:Add Duration with mavg: 0.8969937018449045
+2024-09-27 09:56:11,234:INFO:I(Accel_14miles ** 3) failed to converge
+2024-09-27 09:56:11,254:INFO:I(Accel_14miles ** 2) failed to converge
+2024-09-27 09:56:11,298:INFO:I(Accel_08miles ** 3) failed to converge
+2024-09-27 09:56:11,306:INFO:I(Brake_11miles ** 3) failed to converge
+2024-09-27 09:56:11,324:INFO:I(Pct_drive_3hrs ** 2) failed to converge
+2024-09-27 09:56:11,344:INFO:I(Accel_11miles ** 3) failed to converge
+2024-09-27 09:56:11,363:INFO:I(Pct_drive_3hrs ** 3) failed to converge
+2024-09-27 09:56:11,507:INFO:I(Brake_12miles ** 3) failed to converge
+2024-09-27 09:56:11,683:INFO:I(Accel_12miles ** 3) failed to converge
+2024-09-27 09:56:11,877:INFO:I(Brake_14miles ** 3) failed to converge
+2024-09-27 09:56:11,974:INFO:I(Pct_drive_rush ** 3) failed to converge
+2024-09-27 09:56:12,041:INFO:I(Brake_14miles ** 2) failed to converge
+2024-09-27 09:56:12,120:INFO:I(Pct_drive_2hrs ** 3) failed to converge
+2024-09-27 09:56:12,150:INFO:I(Pct_drive_wkday ** 2) failed to converge
+2024-09-27 09:56:12,171:INFO:I(Accel_09miles ** 3) failed to converge
+2024-09-27 09:56:12,332:INFO:I(Pct_drive_2hrs ** 2) failed to converge
+2024-09-27 09:56:12,400:INFO:I(Accel_11miles ** 2)             0.899127
+I(Brake_06miles ** 3)             0.896994
+Brake_11miles                     0.899127
+I(Accel_14miles ** 3)             0.000000
+I(Accel_08miles ** 2)             0.865898
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.901255
+I(Right_turn_intensity11 ** 2)    0.872003
+I(Left_turn_intensity09 ** 2)     0.901255
+I(Total_miles_driven ** 2)        0.896994
+I(Right_turn_intensity12 ** 3)    0.872003
+Length: 104, dtype: float64
+2024-09-27 09:56:12,400:INFO:Add Insured_age with mavg: 0.9076093814367668
+2024-09-27 09:56:12,451:INFO:I(Accel_14miles ** 3) failed to converge
+2024-09-27 09:56:12,473:INFO:I(Accel_14miles ** 2) failed to converge
+2024-09-27 09:56:12,509:INFO:I(Accel_08miles ** 3) failed to converge
+2024-09-27 09:56:12,517:INFO:I(Brake_11miles ** 3) failed to converge
+2024-09-27 09:56:12,538:INFO:I(Pct_drive_3hrs ** 2) failed to converge
+2024-09-27 09:56:12,560:INFO:I(Accel_11miles ** 3) failed to converge
+2024-09-27 09:56:12,581:INFO:I(Pct_drive_3hrs ** 3) failed to converge
+2024-09-27 09:56:12,747:INFO:I(Brake_12miles ** 3) failed to converge
+2024-09-27 09:56:12,946:INFO:I(Accel_12miles ** 3) failed to converge
+2024-09-27 09:56:13,164:INFO:I(Brake_14miles ** 3) failed to converge
+2024-09-27 09:56:13,273:INFO:I(Pct_drive_rush ** 3) failed to converge
+2024-09-27 09:56:13,352:INFO:I(Brake_14miles ** 2) failed to converge
+2024-09-27 09:56:13,447:INFO:I(Pct_drive_2hrs ** 3) failed to converge
+2024-09-27 09:56:13,490:INFO:I(Pct_drive_wkday ** 2) failed to converge
+2024-09-27 09:56:13,512:INFO:I(Accel_09miles ** 3) failed to converge
+2024-09-27 09:56:13,702:INFO:I(Pct_drive_2hrs ** 2) failed to converge
+2024-09-27 09:56:13,774:INFO:I(Accel_11miles ** 2)             0.872003
+I(Brake_06miles ** 3)             0.872003
+Brake_11miles                     0.907609
+I(Accel_14miles ** 3)             0.000000
+I(Accel_08miles ** 2)             0.874028
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.911821
+I(Right_turn_intensity11 ** 2)    0.869973
+I(Left_turn_intensity09 ** 2)     0.911821
+I(Total_miles_driven ** 2)        0.905496
+I(Right_turn_intensity12 ** 3)    0.901255
+Length: 103, dtype: float64
+2024-09-27 09:56:13,775:INFO:Add I(Duration ** 3) with mavg: 0.9160133513055991
+2024-09-27 09:56:13,837:INFO:I(Accel_14miles ** 3) failed to converge
+2024-09-27 09:56:13,863:INFO:I(Accel_14miles ** 2) failed to converge
+2024-09-27 09:56:13,907:INFO:I(Accel_08miles ** 3) failed to converge
+2024-09-27 09:56:13,917:INFO:I(Brake_11miles ** 3) failed to converge
+2024-09-27 09:56:13,944:INFO:I(Pct_drive_3hrs ** 2) failed to converge
+2024-09-27 09:56:13,972:INFO:I(Accel_11miles ** 3) failed to converge
+2024-09-27 09:56:13,998:INFO:I(Pct_drive_3hrs ** 3) failed to converge
+2024-09-27 09:56:14,192:INFO:I(Brake_12miles ** 3) failed to converge
+2024-09-27 09:56:14,411:INFO:I(Accel_12miles ** 3) failed to converge
+2024-09-27 09:56:14,664:INFO:I(Brake_14miles ** 3) failed to converge
+2024-09-27 09:56:14,791:INFO:I(Pct_drive_rush ** 3) failed to converge
+2024-09-27 09:56:14,994:INFO:I(Pct_drive_2hrs ** 3) failed to converge
+2024-09-27 09:56:15,034:INFO:I(Pct_drive_wkday ** 2) failed to converge
+2024-09-27 09:56:15,060:INFO:I(Accel_09miles ** 3) failed to converge
+2024-09-27 09:56:15,264:INFO:I(Pct_drive_2hrs ** 2) failed to converge
+2024-09-27 09:56:15,365:INFO:I(Accel_11miles ** 2)             0.876049
+I(Brake_06miles ** 3)             0.880077
+Brake_11miles                     0.880077
+I(Accel_14miles ** 3)             0.000000
+I(Accel_08miles ** 2)             0.835056
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.920187
+I(Right_turn_intensity11 ** 2)    0.878066
+I(Left_turn_intensity09 ** 2)     0.920187
+I(Total_miles_driven ** 2)        0.913920
+I(Right_turn_intensity12 ** 3)    0.916013
+Length: 102, dtype: float64
+2024-09-27 09:56:15,366:INFO:Add I(Left_turn_intensity09 ** 3) with mavg: 0.922266074754828
+2024-09-27 09:56:15,441:INFO:I(Accel_14miles ** 3) failed to converge
+2024-09-27 09:56:15,468:INFO:I(Accel_14miles ** 2) failed to converge
+2024-09-27 09:56:15,515:INFO:I(Accel_08miles ** 3) failed to converge
+2024-09-27 09:56:15,525:INFO:I(Brake_11miles ** 3) failed to converge
+2024-09-27 09:56:15,534:INFO:Left_turn_intensity08 failed to converge
+2024-09-27 09:56:15,543:INFO:I(Pct_drive_3hrs ** 2) failed to converge
+2024-09-27 09:56:15,572:INFO:I(Accel_11miles ** 3) failed to converge
+2024-09-27 09:56:15,601:INFO:I(Pct_drive_3hrs ** 3) failed to converge
+2024-09-27 09:56:15,816:INFO:I(Brake_12miles ** 3) failed to converge
+2024-09-27 09:56:16,064:INFO:I(Accel_12miles ** 3) failed to converge
+2024-09-27 09:56:16,331:INFO:I(Brake_14miles ** 3) failed to converge
+2024-09-27 09:56:16,472:INFO:I(Pct_drive_rush ** 3) failed to converge
+2024-09-27 09:56:16,555:INFO:Left_turn_intensity10 failed to converge
+2024-09-27 09:56:16,696:INFO:I(Pct_drive_2hrs ** 3) failed to converge
+2024-09-27 09:56:16,743:INFO:I(Pct_drive_wkday ** 2) failed to converge
+2024-09-27 09:56:16,752:INFO:Left_turn_intensity09 failed to converge
+2024-09-27 09:56:16,762:INFO:I(Accel_09miles ** 3) failed to converge
+2024-09-27 09:56:16,771:INFO:I(Left_turn_intensity08 ** 2) failed to converge
+2024-09-27 09:56:16,987:INFO:I(Pct_drive_2hrs ** 2) failed to converge
+2024-09-27 09:56:17,033:INFO:I(Left_turn_intensity09 ** 2) failed to converge
+2024-09-27 09:56:17,070:INFO:I(Accel_11miles ** 2)             0.832758
+I(Brake_06miles ** 3)             0.853211
+Brake_11miles                     0.873185
+I(Accel_14miles ** 3)             0.000000
+I(Accel_08miles ** 2)             0.844182
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.839631
+I(Right_turn_intensity11 ** 2)    0.920187
+I(Left_turn_intensity09 ** 2)     0.000000
+I(Total_miles_driven ** 2)        0.916013
+I(Right_turn_intensity12 ** 3)    0.913920
+Length: 101, dtype: float64
+2024-09-27 09:56:17,071:INFO:No variable to add.
+2024-09-27 09:56:17,071:INFO:Cluster 2:
+
+2024-09-27 09:56:17,153:INFO:Initial Threshold: 0.0
+2024-09-27 09:56:27,659:INFO:I(Accel_11miles ** 2)             0.348897
+I(Brake_06miles ** 3)             0.533238
+Brake_11miles                     0.551461
+I(Accel_14miles ** 3)             0.191140
+I(Accel_08miles ** 2)             0.510119
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.607892
+I(Right_turn_intensity11 ** 2)    0.595299
+I(Left_turn_intensity09 ** 2)     0.588503
+I(Total_miles_driven ** 2)        0.582653
+I(Right_turn_intensity12 ** 3)    0.609399
+Length: 106, dtype: float64
+2024-09-27 09:56:27,660:INFO:Add I(Total_days_driven ** 3) with mavg: 0.6895506825999423
+2024-09-27 09:56:41,562:INFO:I(Accel_11miles ** 2)             0.683207
+I(Brake_06miles ** 3)             0.690684
+Brake_11miles                     0.679771
+I(Accel_14miles ** 3)             0.688666
+I(Accel_08miles ** 2)             0.666600
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.675485
+I(Right_turn_intensity11 ** 2)    0.671756
+I(Left_turn_intensity09 ** 2)     0.655947
+I(Total_miles_driven ** 2)        0.695650
+I(Right_turn_intensity12 ** 3)    0.678283
+Length: 105, dtype: float64
+2024-09-27 09:56:41,564:INFO:Add Total_miles_driven with mavg: 0.709443964992591
+2024-09-27 09:56:57,067:INFO:I(Accel_11miles ** 2)             0.708542
+I(Brake_06miles ** 3)             0.709292
+Brake_11miles                     0.712748
+I(Accel_14miles ** 3)             0.710778
+I(Accel_08miles ** 2)             0.711984
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.706482
+I(Right_turn_intensity11 ** 2)    0.711038
+I(Left_turn_intensity09 ** 2)     0.709241
+I(Total_miles_driven ** 2)        0.692605
+I(Right_turn_intensity12 ** 3)    0.712850
+Length: 104, dtype: float64
+2024-09-27 09:56:57,068:INFO:Add Credit_score with mavg: 0.7259151494031492
+2024-09-27 09:57:14,374:INFO:I(Accel_11miles ** 2)             0.724695
+I(Brake_06miles ** 3)             0.722761
+Brake_11miles                     0.714418
+I(Accel_14miles ** 3)             0.725991
+I(Accel_08miles ** 2)             0.717289
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.722560
+I(Right_turn_intensity11 ** 2)    0.726300
+I(Left_turn_intensity09 ** 2)     0.721709
+I(Total_miles_driven ** 2)        0.724231
+I(Right_turn_intensity12 ** 3)    0.723985
+Length: 103, dtype: float64
+2024-09-27 09:57:14,376:INFO:Add I(Brake_12miles ** 3) with mavg: 0.7274102032164202
+2024-09-27 09:57:32,095:INFO:I(Accel_11miles ** 2)             0.727633
+I(Brake_06miles ** 3)             0.726027
+Brake_11miles                     0.716382
+I(Accel_14miles ** 3)             0.726571
+I(Accel_08miles ** 2)             0.718285
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.724588
+I(Right_turn_intensity11 ** 2)    0.726245
+I(Left_turn_intensity09 ** 2)     0.721760
+I(Total_miles_driven ** 2)        0.723501
+I(Right_turn_intensity12 ** 3)    0.728049
+Length: 102, dtype: float64
+2024-09-27 09:57:32,096:INFO:Add I(Car_age ** 3) with mavg: 0.7307151280170443
+2024-09-27 09:57:51,576:INFO:I(Accel_11miles ** 2)             0.732141
+I(Brake_06miles ** 3)             0.732549
+Brake_11miles                     0.719026
+I(Accel_14miles ** 3)             0.729299
+I(Accel_08miles ** 2)             0.726688
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.730234
+I(Right_turn_intensity11 ** 2)    0.731613
+I(Left_turn_intensity09 ** 2)     0.728603
+I(Total_miles_driven ** 2)        0.726360
+I(Right_turn_intensity12 ** 3)    0.730107
+Length: 101, dtype: float64
+2024-09-27 09:57:51,578:INFO:Add I(Duration ** 3) with mavg: 0.7345688905185116
+2024-09-27 09:58:07,141:INFO:Duration failed to converge
+2024-09-27 09:58:12,506:INFO:I(Accel_11miles ** 2)             0.734378
+I(Brake_06miles ** 3)             0.730183
+Brake_11miles                     0.727891
+I(Accel_14miles ** 3)             0.734454
+I(Accel_08miles ** 2)             0.730014
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.730184
+I(Right_turn_intensity11 ** 2)    0.729265
+I(Left_turn_intensity09 ** 2)     0.727774
+I(Total_miles_driven ** 2)        0.718662
+I(Right_turn_intensity12 ** 3)    0.731749
+Length: 100, dtype: float64
+2024-09-27 09:58:12,507:INFO:Add Right_turn_intensity08 with mavg: 0.7355262638425581
+2024-09-27 09:58:29,021:INFO:Duration failed to converge
+2024-09-27 09:58:34,777:INFO:I(Accel_11miles ** 2)             0.734878
+I(Brake_06miles ** 3)             0.733689
+Brake_11miles                     0.724891
+I(Accel_14miles ** 3)             0.735871
+I(Accel_08miles ** 2)             0.730860
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.728228
+I(Right_turn_intensity11 ** 2)    0.735223
+I(Left_turn_intensity09 ** 2)     0.726982
+I(Total_miles_driven ** 2)        0.718986
+I(Right_turn_intensity12 ** 3)    0.732891
+Length: 99, dtype: float64
+2024-09-27 09:58:34,778:INFO:Add I(Pct_drive_rush ** 3) with mavg: 0.7373255354760965
+2024-09-27 09:58:53,819:INFO:Duration failed to converge
+2024-09-27 09:59:00,237:INFO:I(Accel_11miles ** 2)             0.737020
+I(Brake_06miles ** 3)             0.736561
+Brake_11miles                     0.725176
+I(Accel_14miles ** 3)             0.737206
+I(Accel_08miles ** 2)             0.731727
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.729942
+I(Right_turn_intensity11 ** 2)    0.732078
+I(Left_turn_intensity09 ** 2)     0.729400
+I(Total_miles_driven ** 2)        0.719411
+I(Right_turn_intensity12 ** 3)    0.736588
+Length: 98, dtype: float64
+2024-09-27 09:59:00,238:INFO:Add Right_turn_intensity11 with mavg: 0.7377801909451557
+2024-09-27 09:59:19,481:INFO:Duration failed to converge
+2024-09-27 09:59:26,420:INFO:I(Accel_11miles ** 2)             0.737248
+I(Brake_06miles ** 3)             0.735689
+Brake_11miles                     0.730133
+I(Accel_14miles ** 3)             0.738049
+I(Accel_08miles ** 2)             0.733996
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.734531
+I(Right_turn_intensity11 ** 2)    0.734069
+I(Left_turn_intensity09 ** 2)     0.728537
+I(Total_miles_driven ** 2)        0.718929
+I(Right_turn_intensity12 ** 3)    0.734970
+Length: 97, dtype: float64
+2024-09-27 09:59:26,421:INFO:Add I(Accel_06miles ** 3) with mavg: 0.7387017445771423
+2024-09-27 09:59:47,059:INFO:Duration failed to converge
+2024-09-27 09:59:54,467:INFO:I(Accel_11miles ** 2)             0.738702
+I(Brake_06miles ** 3)             0.736368
+Brake_11miles                     0.729507
+I(Accel_14miles ** 3)             0.738168
+I(Accel_08miles ** 2)             0.731362
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.733863
+I(Right_turn_intensity11 ** 2)    0.736086
+I(Left_turn_intensity09 ** 2)     0.729395
+I(Total_miles_driven ** 2)        0.726110
+I(Right_turn_intensity12 ** 3)    0.736639
+Length: 96, dtype: float64
+2024-09-27 09:59:54,468:INFO:Add I(Pct_drive_wkday ** 3) with mavg: 0.7388552250991761
+2024-09-27 10:00:16,143:INFO:Duration failed to converge
+2024-09-27 10:00:26,245:INFO:I(Accel_11miles ** 2)             0.738855
+I(Brake_06miles ** 3)             0.737295
+Brake_11miles                     0.730475
+I(Accel_14miles ** 3)             0.738780
+I(Accel_08miles ** 2)             0.731323
+                                    ...   
+I(Left_turn_intensity11 ** 2)     0.733747
+I(Right_turn_intensity11 ** 2)    0.735304
+I(Left_turn_intensity09 ** 2)     0.729562
+I(Total_miles_driven ** 2)        0.725710
+I(Right_turn_intensity12 ** 3)    0.736832
+Length: 95, dtype: float64
+2024-09-27 10:00:26,246:INFO:No variable to add.
+2024-09-27 10:00:26,370:INFO:                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:                  Claim   No. Observations:                15990
+Model:                            GLM   Df Residuals:                    15984
+Model Family:                Binomial   Df Model:                            5
+Link Function:                 LogLog   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -2907.8
+Date:                Fri, 27 Sep 2024   Deviance:                       5815.6
+Time:                        10:00:26   Pearson chi2:                 1.39e+04
+No. Iterations:                     9   Pseudo R-squ. (CS):            0.04835
+Covariance Type:            nonrobust                                         
+=============================================================================================
+                                coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+Intercept                    -1.1986      0.015    -82.323      0.000      -1.227      -1.170
+Total_miles_driven            0.1792      0.016     11.216      0.000       0.148       0.210
+I(Years_noclaims ** 3)       -0.0479      0.007     -6.735      0.000      -0.062      -0.034
+I(Total_days_driven ** 3)     0.0800      0.008     10.277      0.000       0.065       0.095
+I(Brake_09miles ** 2)         0.0794      0.019      4.107      0.000       0.042       0.117
+I(Brake_11miles ** 3)        -0.0687      0.055     -1.250      0.211      -0.176       0.039
+=============================================================================================
+2024-09-27 10:00:26,453:INFO:                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:                  Claim   No. Observations:                  807
+Model:                            GLM   Df Residuals:                      801
+Model Family:                Binomial   Df Model:                            5
+Link Function:                 LogLog   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -144.35
+Date:                Fri, 27 Sep 2024   Deviance:                       288.70
+Time:                        10:00:26   Pearson chi2:                     605.
+No. Iterations:                    13   Pseudo R-squ. (CS):             0.1014
+Covariance Type:            nonrobust                                         
+=================================================================================================
+                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+Intercept                        -2.1445      0.640     -3.351      0.001      -3.399      -0.890
+Total_miles_driven                0.4082      0.065      6.252      0.000       0.280       0.536
+Duration                          2.6094      1.273      2.050      0.040       0.115       5.104
+Insured_age                      -0.0130      0.062     -0.209      0.835      -0.135       0.109
+I(Duration ** 3)                 -1.1300      0.610     -1.853      0.064      -2.325       0.065
+I(Left_turn_intensity09 ** 3)  -7.74e-06   1.07e-05     -0.724      0.469   -2.87e-05    1.32e-05
+=================================================================================================
+2024-09-27 10:00:26,735:INFO:                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:                  Claim   No. Observations:                43203
+Model:                            GLM   Df Residuals:                    43191
+Model Family:                Binomial   Df Model:                           11
+Link Function:                 LogLog   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -6225.4
+Date:                Fri, 27 Sep 2024   Deviance:                       12451.
+Time:                        10:00:26   Pearson chi2:                 4.12e+04
+No. Iterations:                     9   Pseudo R-squ. (CS):            0.03157
+Covariance Type:            nonrobust                                         
+=============================================================================================
+                                coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+Intercept                    -0.9828      0.091    -10.853      0.000      -1.160      -0.805
+I(Total_days_driven ** 3)     0.0613      0.005     11.687      0.000       0.051       0.072
+Total_miles_driven            0.1218      0.010     12.822      0.000       0.103       0.140
+Credit_score                 -0.0685      0.008     -8.239      0.000      -0.085      -0.052
+I(Brake_12miles ** 3)       170.8443     48.490      3.523      0.000      75.807     265.882
+I(Car_age ** 3)              -0.0260      0.004     -6.904      0.000      -0.033      -0.019
+I(Duration ** 3)              0.0232      0.005      4.827      0.000       0.014       0.033
+Right_turn_intensity08       -0.6167      0.380     -1.624      0.104      -1.361       0.128
+I(Pct_drive_rush ** 3)       -0.0029      0.001     -1.955      0.051      -0.006    7.07e-06
+Right_turn_intensity11       10.6310      4.040      2.631      0.009       2.712      18.550
+I(Accel_06miles ** 3)         0.0287      0.011      2.647      0.008       0.007       0.050
+I(Pct_drive_wkday ** 3)       0.0004      0.001      0.446      0.656      -0.001       0.002
+=============================================================================================
+2024-09-27 10:00:26,912:INFO:GLM fit.
