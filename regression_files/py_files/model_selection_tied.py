@@ -7,7 +7,7 @@ import os
 import sys
 path = "../statistical-models-for-improvide-insurance-risk-assessment-using-telematics"
 path_to_files = path+'/clustering_files/clustering_results/files/'
-path_to_csv = path+'/clustering_files/clustering_results/csv/'
+path_to_csv = path+'/regression_files/regression_results/csv/'
 sys.path.insert(0, path)
 from gmmglm import gmmglm
 import pandas as pd
